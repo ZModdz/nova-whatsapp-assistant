@@ -1,0 +1,41 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Google OAuth & Credentials
+credentials/
+*.pem
+*.key
+client_secret*.json
+token.json
+
+# SQLite Databases & Backups
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+backups/
+
+# Logs
+logs/
+*.log
+
+# Python Virtual Environment & Cache
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
